@@ -1,2 +1,1 @@
-first project cv
-new text
+https://western8.github.io/rsschool-cv/cv
