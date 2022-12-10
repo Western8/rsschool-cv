@@ -19,17 +19,17 @@ Higher education. Graduate of **Belarusian State University of Informatics and R
 
 * Period: **2004-2006**  
  Position: **engineer-developer**  
-
+   
  The first experience or work for company 1C-Franchisee. Analyses, development, deployment software 1C:Enterprise 7.7 for clients companies.
 
 * Period: **From 2006**  
 Position: **self-employed**  
-
+  
 Service by consulting and development in use, extension environment of software 1C:Enterprise. Provide service for companies in various sphere (commerce, retail, manufacturing, service, logistic) by automation of different business tasks (accounting, management operation).
 
 * Period: **2010-2021**  
 Position: **engineer-developer / head of group of development**  
-
+  
 Introduction of 1C-systems in the retail network. The full cycle of implementation from demands collection, analyses business-processes, composition technical specification to development, testing, deployment, writing user's documentation and following consulting and support.
 
 ## Skills
