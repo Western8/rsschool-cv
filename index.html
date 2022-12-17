@@ -13,28 +13,30 @@
 
 <body>
     <header class="header">
-        
+
         <nav class="nav">
             <ul class="nav-list" id="home">
+                <li class="nav-item"><a href="./index.html" class="nav-link">Home</a></li>
                 <li class="nav-item"><a href="#contacts" class="nav-link">Info & Contacts</a></li>
                 <li class="nav-item"><a href="#aboutme" class="nav-link">About me</a></li>
                 <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
                 <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
                 <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
                 <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
             </ul>
         </nav>
         <div class="div-top"></div>
-            <div class="header-left">
-                <span class="circle">
-                    <img src="./assets/img/avatar.png" alt="Avatar" width="240" height="240">
-                </span>
-            </div>
-            <div class="header-right">
-                <h1>Ihar<br>Shaplauski</h1>
-                <h2>Developer</h2>
-            </div>
-        
+        <div class="header-left">
+            <span class="circle">
+                <img src="./assets/img/avatar.png" alt="Avatar" width="240" height="240">
+            </span>
+        </div>
+        <div class="header-right">
+            <h1>Ihar<br>Shaplauski</h1>
+            <h2>Developer</h2>
+        </div>
+
     </header>
 
     <main class="main">
@@ -52,10 +54,10 @@
                     <p class="info-name">E-mail:</p>
                     <p class="info-name">GitHub:</p>
                 </div>
-                <div class="section-contacts-value">
-                    <p class="info-value">Ihar Shaplauski</p>
-                    <p class="info-value">Minsk, Belarus</p>
-                    <p class="info-value"><a href="shaplauski@gmail.com">shaplauski@gmail.com</a></p>
+                <div class="section-contacts-value" itemscope itemtype="https://schema.org/Person">
+                    <p class="info-value" itemprop="name">Ihar Shaplauski</p>
+                    <p class="info-value" itemprop="homeLocation">Minsk, Belarus</p>
+                    <p class="info-value"><a itemprop="email" href="mailto:shaplauski@gmail.com">shaplauski@gmail.com</a></p>
                     <p class="info-value"><a href="https://github.com/western8">western8</a></p>
                 </div>
             </div>
@@ -95,7 +97,8 @@
                         <h4>2004 - 2006</h4>
                         <h4>Engineer-developer</h4>
                         <p>
-                            The first experience or work for company 1C-Franchisee. Analyses, development, deployment software
+                            The first experience or work for company 1C-Franchisee. Analyses, development, deployment
+                            software
                             1C:Enterprise 7.7 for clients companies.
                         </p>
                     </li>
@@ -103,8 +106,10 @@
                         <h4>2006 - now</h4>
                         <h4>Self-employed</h4>
                         <p>
-                            Service by consulting and development in use, extension environment of software 1C:Enterprise.
-                            Provide service for companies in various sphere (commerce, retail, manufacturing, service, logistic) by
+                            Service by consulting and development in use, extension environment of software
+                            1C:Enterprise.
+                            Provide service for companies in various sphere (commerce, retail, manufacturing, service,
+                            logistic) by
                             automation of different business tasks (accounting, management operation).
                         </p>
                     </li>
@@ -112,7 +117,8 @@
                         <h4>2010 - 2021</h4>
                         <h4>Engineer-developer / Head of group of development</h4>
                         <p>
-                            Introduction of 1C-systems in the retail network. The full cycle of development and implementation -
+                            Introduction of 1C-systems in the retail network. The full cycle of development and
+                            implementation -
                             from demands
                             collection, analyses business-processes, composition technical specification to development,
                             testing,
@@ -147,6 +153,27 @@
                 <br>
 
             </section>
+            <section class="section" id="code">
+                <h2 class="section-header">Code</h2>
+                <br>
+                <div class="code">
+                    <pre>
+                        <code>
+        .footer {
+            border: 1px solid #00ff00;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            font-size: 80%;
+        }    
+                        </code>
+                    </pre>
+                </div>
+                <br>
+                <br>
+                <br>
+            </section>
+
             <section class="section" id="languages">
                 <h2 class="section-header">Languages</h2>
                 <ul>
@@ -166,7 +193,13 @@
     </main>
 
     <footer class="footer">
-        <a class="link-home" href="./index.html" class="nav-link">Home</a>
+        <div class="footer-mygithub">
+            <a href="https://github.com/western8">My GitHub</a>
+        </div>
+        <div class="footer-rsschool">
+            <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="RS School"
+                    width="80" height="80"></a>
+        </div>
     </footer>
 </body>
 
