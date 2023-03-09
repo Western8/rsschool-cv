@@ -1,0 +1,191 @@
+:root {
+    --main-left-color: #f37023;
+    --header-color: #f9e498;
+    /* --header-color: #f48924;*/
+    --code-color: lightyellow;
+  }
+/*
+@font-face {
+    font-family: 'CourierPrime, Courier';
+    src: url("../assets/fonts/CourierPrime-Regular.ttf");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'CourierPrime, Courier';
+    src: url("../assets/fonts/CourierPrime-Bold.ttf");
+    font-weight: 300;
+}
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    background: linear-gradient(to right, #666666, #ffffff);
+    font-family: 'Courier';
+    src: url("../assets/fonts/CourierPrime-Regular.ttf");
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.header {
+    height: 310px;
+    background-color: var(--header-color);
+}
+
+.div-top {
+    height: 60px;
+}
+
+.nav {
+    position: fixed;
+    top: 10px;
+    right: 20vw;
+    background-color: var(--header-color);
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 10px;
+    margin: 5px 10px;
+}
+
+.nav-link {
+    color: black;
+}
+
+.header-left {
+    float: left;
+    display: block;
+    width: 25%;
+    height: 100%;
+    margin: 0px;
+    top: 20px;
+    align-items: center;
+}
+
+.circle {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.header-right {
+    float: left;
+    display: block;
+    width: 75%;
+    height: 100%;
+    margin: 0px;
+    top: 20px;
+    padding-left: 30px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+body {
+    min-height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1440px;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main {
+    line-height: 150%;
+    height: 2900px;
+    /*display: flex;*/
+}
+
+.main-left {
+
+    float: left;
+    display: block;
+    /*
+    display: flex;    
+    height: 100vh;
+     */
+   
+    width: 25%;
+    height: 100%;
+    margin: 0px;
+    background-color: var(--main-left-color)
+}
+
+.section-contacts-name {
+    float: left;
+    display: block;
+    width: 30%;
+}
+
+.section-contacts-value {
+    float: left;
+    display: block;
+    width: 70%;
+    font-weight: bold;
+}
+
+.main-right {
+    float: left;
+    display: block;
+    /*
+    display: inline-block;
+    display: flex;
+    */
+    width: 75%;
+    height: 100%;
+    margin: 0px;
+    padding-left: 30px;
+    text-align: left;
+}
+
+.section-header {
+    background-color: var(--main-left-color);
+}
+
+.code {
+    background-color: var(--code-color);
+    width: 70%;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 80%;
+}
+
+.footer-mygithub {
+    float: left;
+    display: block;
+    width: 50%;
+    height: 100%;
+}
+
+.footer-rsschool {
+    float: left;
+    display: block;
+    width: 50%;
+    height: 100%;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0;
+}
